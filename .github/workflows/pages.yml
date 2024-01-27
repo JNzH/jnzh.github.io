@@ -30,7 +30,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
       - name: Use Node 16
-        uses: actions/setup_node@v2
+        uses: actions/setup-node@v2
         with:
           path: node_modules
           key: ${{ runner.OS }}-npm-cache
