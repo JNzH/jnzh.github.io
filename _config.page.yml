@@ -1,0 +1,14 @@
+# Sidebar widget configurations
+# http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
+widgets:
+  -
+    # Where should the widget be placed, left sidebar or right sidebar
+    position: left
+    sticky: true
+    type: profile
+    # Author name
+    author: JNzH
+    # URL or path to the avatar image
+    avatar: /img/favicon.jpg
+    # Whether show the rounded avatar image
+    avatar_rounded: false
